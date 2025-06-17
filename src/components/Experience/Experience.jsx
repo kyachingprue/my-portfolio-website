@@ -1,49 +1,59 @@
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaCss3, FaGoogle, FaAmazon, FaFigma, FaReact, FaHtml5, FaJs, FaNode } from "react-icons/fa";
-import { IoLogoFirebase } from "react-icons/io5";
+import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
 import { RiNetflixFill } from "react-icons/ri";
-import { SiAxios, SiDaisyui, SiExpress, SiMongodb } from "react-icons/si";
+import { SiAxios, SiDaisyui, SiExpress, SiMongodb, SiReactrouter, SiVite } from "react-icons/si";
 
 const Experience = () => {
   return (
     <div className="p-10 md:p-24">
+      <h2 className="text-xl pb-5 md:text-2xl front-semibold text-center text-white">---------- Experience ----------</h2>
       <div className="flex flex-wrap items-center justify-around">
-        <div className="flex flex-wrap md:w-3/5 gap-8 md:p-12 py-10">
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+        <div className="flex flex-wrap md:w-3/5 mx-auto gap-8 md:p-12 py-10">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <FaHtml5 color='#ff5733' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <FaCss3 color='#3342ff' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <BiLogoTailwindCss color='#33ffff' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <SiDaisyui color='#338aff' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <FaJs color='#FFC300 ' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <SiAxios color='#338aff' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <IoLogoFirebase color='#FFC300 ' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <FaNode color='#33ff61' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <SiExpress color='#424344' size={50} />
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
+            <SiExpress color='#07536a' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <FaFigma color='#0e9714' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <SiMongodb color='#0e9714' size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <FaReact color='#15eac0' size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
+            <SiReactrouter color='#FF5733 ' size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
+            <SiVite color='#15baea' size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
+            <IoLogoVercel color='#15baea' size={50} />
           </span>
         </div>
         <div>
