@@ -64,7 +64,7 @@ const Experience = () => {
             <RiNetflixFill color="#E50914" size={50} />
             <span className="text-white">
               <h2 className="text-xl">
-                Software Engineer, Google
+                Software Engineer, Netflix
               </h2>
               <p className="text-sm font-thin">sept 2023 - present</p>
               <ul className="text-sm p-2">
@@ -77,7 +77,7 @@ const Experience = () => {
             <FaAmazon color="#FF9900" size={50} />
             <span className="text-white">
               <h2 className="text-xl">
-                Software Engineer, Google
+                Software Engineer, Amazon
               </h2>
               <p className="text-sm font-thin">sept 2023 - present</p>
               <ul className="text-sm p-2">
