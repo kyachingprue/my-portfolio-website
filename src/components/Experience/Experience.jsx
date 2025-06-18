@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <div className="p-10 md:p-24">
       <h2 className="text-xl pb-5 md:text-3xl front-semibold text-center text-white">---------- Experience ----------</h2>
-      <div className="flex flex-wrap items-center justify-around">
+      <div id="Experience" className="flex flex-wrap items-center justify-around">
         <div className="flex flex-wrap md:w-3/5 mx-auto gap-8 md:p-12 py-10">
           <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <FaHtml5 color='#ff5733' size={50} />

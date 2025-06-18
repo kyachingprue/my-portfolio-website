@@ -3,11 +3,11 @@
 const Navbar = () => {
 
   const links = <div className="flex items-center">
-    <li><a>Home</a></li>
-    <li><a>About</a></li>
-    <li><a>Experience</a></li>
-    <li><a>Projects</a></li>
-    <li><a>Contact</a></li>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a href="#Experience">Experience</a></li>
+    <li><a href="#Projects">Projects</a></li>
+    <li><a href="#Contact">Contact</a></li>
   </div>
   return (
     <div className="mx-auto w-11/12">
