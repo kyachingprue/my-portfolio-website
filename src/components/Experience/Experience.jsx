@@ -1,7 +1,7 @@
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaCss3, FaGoogle, FaAmazon, FaFigma, FaReact, FaHtml5, FaJs, FaNode, FaGithub } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import { RiNetflixFill } from "react-icons/ri";
+import { RiNetflixFill, RiNextjsFill } from "react-icons/ri";
 import { SiAxios, SiDaisyui, SiExpress, SiMongodb, SiReactrouter, SiVite } from "react-icons/si";
 
 const Experience = () => {
@@ -50,7 +50,7 @@ const Experience = () => {
             <SiReactrouter color='#FF5733 ' size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
-            <SiVite color='#15baea' size={50} />
+            <RiNextjsFill color="#fcfafa" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex mx-auto items-center rounded-2xl">
             <FaGithub color='#f9fafa' size={50} />
