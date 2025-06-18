@@ -3,9 +3,9 @@ import aboutImg from '../../assets/icons/about_images.svg'
 
 const About = () => {
   return (
-    <div>
+    <div id='About'>
       <h2 className='text-xl md:text-3xl font-semibold text-white text-center pb-4 md:pb-8'>---------- About ----------</h2>
-      <div id='About' className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12">
+      <div className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12">
         <div>
           <div className="md:flex flex-wrap flex-col md:flex-row items-center">
             <img className="md:h-80 md:pr-8" src={aboutImg} alt="about page images" />
