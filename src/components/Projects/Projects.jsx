@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div id='Projects' className='p-10 md:p-24 text-white'>
       <h1 className='text-2xl md:text-4xl text-center text-white font-bold'>------- Projects -------</h1>
-      <div className='py-12 px-8 flex mx-auto flex-wrap gap-5'>
+      <div className='py-6 md:py-12 md:px-8 flex mx-auto flex-wrap gap-5'>
         <ProjectCard title="Blogging Website" main="This is a blogging website created in next js and used some component library used some component library" images={blogImg} />
         <ProjectCard title="Youtube Clone" main="This is a blogging website created in next js and used some component library used some component library" images={youtubeImg} />
         <ProjectCard title="Netflix Clone" main="This is a blogging website created in next js and used some component library used some component library" images={netflixImg} />
