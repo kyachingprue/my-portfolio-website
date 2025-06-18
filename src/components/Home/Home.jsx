@@ -4,11 +4,11 @@ import TextChange from "../TextChange";
 const Home = () => {
   return (
     <div id="Home" className='text-white md:flex w-full justify-between min-h-screen items-start p-10 md:p-20'>
-      <div className='md:w-2/4 md:pt-10'>
-        <h1 className='text-2xl md:text-4xl flex items-center py-4 md:py-7 font-semibold'>
+      <div className='md:w-2/4 pt-5 md:pt-10'>
+        <h1 className='text-xl md:text-4xl flex items-center py-4 md:py-7 font-bold'>
           "Hi,<TextChange />"
         </h1>
-        <p>Hello! My name is Kyachingprue Marma, and I’m from Singinala Muhamoni Para. I’m currently pursuing my studies at the National University through Mohalchai Degree College.
+        <p className="text-sm md:text-base">Hello! My name is Kyachingprue Marma, and I’m from Singinala Muhamoni Para. I’m currently pursuing my studies at the National University through Mohalchai Degree College.
 
           I am a passionate and self-driven web developer. My journey began with learning the fundamentals of HTML and CSS, and I’ve since gained experience with modern frameworks such as Tailwind CSS, DaisyUI, and AceternityUI to build responsive and attractive user interfaces.
 
