@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import coverImg from "../../assets/icons/undraw_feeling-proud_tdos.svg"
 import TextChange from "../TextChange";
 
@@ -15,7 +16,8 @@ const Home = () => {
           I have a strong foundation in JavaScript, and I work extensively with the React library to build dynamic web applications. I also use tools like Axios for API communication and React Router for client-side routing.
 
           For back-end development, I use Node.js with Express.js, and I’m familiar with databases such as MongoDB and Firebase for storing and managing data.</p>
-        <button className='btn btn-outline mt-5 md:md-10'>Contact Me</button>
+        <a href="#Footer">
+          <button className='btn btn-outline mt-5 md:md-10'>Contact Me</button></a>
       </div>
       <div className="ml-5 md:w-[500px] mt-10 md:mt-4 ">
         <img className="w-full h-full" src={coverImg} alt="" />
