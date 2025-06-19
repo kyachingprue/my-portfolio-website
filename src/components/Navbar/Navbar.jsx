@@ -10,8 +10,8 @@ const Navbar = () => {
     <li><a href="#Footer">Contact</a></li>
   </div>
   return (
-    <div className="mx-auto w-11/12">
-      <div className="navbar text-white rounded-xl shadow-blue-500 shadow-2xl relative top-5 ">
+    <div className="mx-auto fixed top-0 right-5 md:right-14 w-11/12">
+      <div className="navbar text-white rounded-xl bg-[#171d32] shadow-blue-500 shadow-2xl relative top-5 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
