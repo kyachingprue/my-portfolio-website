@@ -9,7 +9,7 @@ const Home = () => {
         <h1 className='text-xl md:text-4xl flex items-center py-4 md:py-7 font-bold'>
           "Hi,<TextChange />"
         </h1>
-        <p className="text-sm md:text-base">Hello! My name is Kyachingprue Marma, and I’m from Singinala Muhamoni Para. I’m currently pursuing my studies at the National University through Mohalchai Degree College.
+        <p className="text-sm md:text-base">Hello! My name is Kyachingprue Marma, and I’m from Singinala Mohamuni Para. I’m currently pursuing my studies at the National University through Mohalchai Degree College.
 
           I am a passionate and self-driven web developer. My journey began with learning the fundamentals of HTML and CSS, and I’ve since gained experience with modern frameworks such as Tailwind CSS, DaisyUI, and AceternityUI to build responsive and attractive user interfaces.
 
