@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import coverImg from "../../assets/icons/undraw_feeling-proud_tdos.svg"
+import coverImg from "../../assets/CoverImg/new-coding-icons.jpg"
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
         <a href="#Footer">
           <button className='btn btn-outline mt-5 md:md-10'>Contact Me</button></a>
       </div>
-      <div className="ml-5 md:w-[500px] mt-10 md:mt-4 ">
+      <div className=" md:w-[500px] mt-10 md:mt-22 ">
         <img className="w-full h-full" src={coverImg} alt="" />
       </div>
     </div>
